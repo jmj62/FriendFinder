@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Friend Finder</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Survey</h4>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Photo URL</label>
+                                <input type="text" class="form-control" id="photoURL">
+                            </div>
+                            <hr>
+                            <h4>Ascribe a value to the qualities below where 1 is least important and 5 being very important:</h4>
+                            <br>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">1. Trustworthy</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">2. Loyal</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question2">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">3. Helpful</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question3">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">4. Friendly</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question4">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">5. Courteous</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question5">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">6. Kind</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question6">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">7. Obedient</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question7">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">8. Cheerful</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question8">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">9. Thrifty</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question9">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">10. Brave</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question10">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">11. Clean</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question11">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question1" class="col-lg-10 control-label centered">12. Reverent</label>
+                                <div class="col-lg-2">
+                                    <select class="form-control" id="question12">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br>
+                            <hr>
+                            <button type="submit" class="btn btn-primary submit pull-right" id="submitForm">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends</a></p>
+            </div>
+        </footer>
+        <div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Closest Match</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h4 id="resultsName"></h4>
+                        <h4 id="resultsEmail"></h4>
+                        <img id="resultsImg" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+$("#submitForm").on("click", function(event) {
+    event.preventDefault();
+    function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+            if ($(this).val() === '') {
+                isValid = false;
+            }
+        });
+        return isValid;
+    }
+    var results = [];
+    for (var i = 1; i < 13; i++) {
+        results.push(parseInt($("#question" + i).val()));
+    }
+    if (validateForm()) {
+        var newFriend = {
+            name: $("#name").val().trim(),
+            email: $("#email").val().trim(),
+            photo: $("#photoURL").val().trim(),
+            scores: results
+        };
+    }
+    $.post("/api/friends", newFriend,
+        function(data) {
+            if (data) {
+                $('#resultsModal').modal('toggle');
+            } else {
+                alert("Didn't happen");
+            }
+            $("#name").val("");
+            $("#email").val("");
+            $("#photoURL").val("");
+            for (var i = 1; i < 13; i++) {
+                $("#question" + i).val('1');
+            }
+            $('#resultsImg').attr("src", data.photo);
+            $('#resultsName').text(data.name);
+            $('#resultsEmail').text(data.email);
+        });
+});
+</script>
